@@ -1,8 +1,8 @@
-public class Audiobook extends LibraryItem {
+public class AudioBook extends LibraryItem {
     private int audioLength;
 
     // Constructor
-    public Audiobook(String title, String author, int yearPublished, int itemID, int audioLength) {
+    public AudioBook(String title, String author, int yearPublished, int itemID, int audioLength) {
         super(title, author, yearPublished, itemID);
         this.audioLength = audioLength;
     }

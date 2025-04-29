@@ -91,7 +91,7 @@ public class LibraryManager {
                 scanner.nextLine();
 
                 // new AudioBook object
-                Audiobook audioBook = new Audiobook(title, author, yearPublished, itemID, audioLength);
+                AudioBook audioBook = new AudioBook(title, author, yearPublished, itemID, audioLength);
                 catalog.add(audioBook);
                 System.out.println("AudioBook added to the catalog!");
 
